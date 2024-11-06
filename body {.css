@@ -28,10 +28,11 @@ body {
       margin:0;
       font-family: "PT Sans", sans-serif;
       font-size:150%;
+      padding:20px;
      }
     body{
         padding:0;
-        display:hidden
+        display:flex
     }
     table {
       width: 100%; /* 테이블 너비를 container에 맞춤 */
@@ -90,12 +91,12 @@ body {
   th, td {
     padding-bottom: 10px;
     padding-top:10px;
+    padding-right:50%;
     text-align: left; /* 텍스트를 왼쪽 정렬 */
   }
   th:last-child, td:last-child {margin-bottom: 0;}
   th {
     padding-left:50px;
-    padding-right: 500px;
     font-weight: 100;
   }
   tr {
