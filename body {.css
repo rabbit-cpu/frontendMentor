@@ -23,12 +23,18 @@ body {
 @media (max-width: 768px) {
     /* 작은 화면에서는 body를 일단 flex로 설정해 다른 요소 숨김 */
      .container {
-      width: 100%; 
+      width: 100vw; 
+      min-height:100vh;
       background-color: #f7f3f3; /* 컨테이너 배경색 */
       border-radius: 8px; /* 테두리 둥글기 */
       font-family: "PT Sans", sans-serif;
       font-size:150%;
      }
+    .body{
+        overflow: hidden; /* 스크롤 제거 */
+        justify-content: flex-start; /* 상단에 배치 */
+        align-items: flex-start; /* 상단에 배치 */
+    }
 }
   .container img {
     max-width: 100%; /* 컨테이너 너비에 맞게 조정 */
