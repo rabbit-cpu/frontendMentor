@@ -32,6 +32,11 @@ body {
     .body{
         padding:0
     }
+    table {
+      width: 100%; /* 테이블 너비를 container에 맞춤 */
+      padding: 50%;
+      margin: 0 auto;
+    }
 }
   .container img {
     max-width: 100%; /* 컨테이너 너비에 맞게 조정 */
