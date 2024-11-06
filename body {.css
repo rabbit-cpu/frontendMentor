@@ -20,7 +20,7 @@ body {
     margin-top: 5%;
     margin-bottom:5%;
   }
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
     /* 작은 화면에서는 body를 일단 flex로 설정해 다른 요소 숨김 */
      .container {
       width: 100%;
