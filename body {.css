@@ -86,3 +86,10 @@ body {
     border-bottom: none; /* 마지막 행에는 경계선 제거 */
   }
   td{color:#925727; font-weight: bold;}
+
+ @media (max-width: 768px) {
+    /* 작은 화면에서는 body를 일단 flex로 설정해 다른 요소 숨김 */
+     .container {
+      width: 100%; 
+     }
+ }
