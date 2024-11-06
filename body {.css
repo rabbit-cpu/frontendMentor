@@ -29,6 +29,9 @@ body {
       font-family: "PT Sans", sans-serif;
       font-size:150%;
      }
+    .body{
+        padding:0
+    }
 }
   .container img {
     max-width: 100%; /* 컨테이너 너비에 맞게 조정 */
