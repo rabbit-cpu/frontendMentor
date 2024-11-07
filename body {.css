@@ -27,6 +27,8 @@ body {
     margin: 0 auto;
     padding: 20px;
     font-size: 150%;
+    box-sizing: border-box;
+    position:relative;
   }
   body {
     padding: 0;
@@ -35,10 +37,16 @@ body {
     width: 100%;
     margin: 0 auto;
   }
-  .container img {
+  .containerImg {
     all:unset;
-    width:calc(100vw + 40px); 
-    margin:-20px;  
+    width:100%; 
+    position:absolute;
+    object-fit: cover;
+    inset: 0;
+  }
+  .content {
+    position:relative;
+    margin-top: 60%;
   }
   
 }
